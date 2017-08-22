@@ -1,1 +1,9 @@
 ---
+- hosts: all
+  connection: local
+  gather_facts: no
+  
+  roles:
+   - cisco_show
+   - cisco_vlan
+   
